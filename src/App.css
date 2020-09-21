@@ -1,0 +1,52 @@
+.quote
+{
+  font-size: 50px;
+  padding: 10px;
+
+}
+
+body
+{
+  font-family: 'Yatra One', cursive;
+  
+}
+.text
+{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 1200ms ease-out;
+}
+.heading-1
+{
+  text-align: center;
+  transition: all 1200ms ease-out;
+  color: white;
+
+}
+.author
+{
+  align-self: end;
+  width: 30%;
+  font-size: 18px;
+  padding: 10px;
+  transition: all 1200ms ease-out;
+}
+
+.tweet
+{
+  color:white;
+  text-align: center;
+  border:none;
+  transition:all 1200ms ease-out;
+  font-size:15px;
+  width: 30px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius:8px;
+}
+.buttons{
+  display: flex;
+  padding: 10px 15px;
+  justify-content: space-between;
+}
