@@ -33,7 +33,8 @@ class App extends React.Component {
             <p className="author">-{quote.author}</p>
             <div className="buttons">
               <a className="tweet" style={{backgroundColor:color}} href="https://twitter.com/"><span className="fa fa-twitter"></span></a>
-              <NewQuoteBox style={{backgroundColor:color}} onClick={this.handleClick}>New Quote</NewQuoteBox>
+              <NewQuoteBox style={{backgroundColor:color}}  onClick={this.handleClick}>New Quote</NewQuoteBox>
+
             </div>
             
           </QuoteBox>

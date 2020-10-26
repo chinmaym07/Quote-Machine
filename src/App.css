@@ -15,6 +15,7 @@ body
   font-size: 30px;
   font-weight: bold;
   padding: 10px;
+  margin: 10px;
   transition: all 1200ms ease-out;
 }
 .heading-1
@@ -29,7 +30,7 @@ body
   align-self: end;
   width: 30%;
   font-size: 18px;
-  padding: 10px;
+  padding: 5px;
   transition: all 1200ms ease-out;
 }
 
@@ -40,13 +41,92 @@ body
   border:none;
   transition:all 1200ms ease-out;
   font-size:15px;
-  width: 30px;
-  padding: 10px;
+  width: 9%;
+  padding:20px 5px;
   cursor: pointer;
   border-radius:8px;
 }
 .buttons{
   display: flex;
-  padding: 10px 15px;
+  padding: 10px;
+  width: 90%;
   justify-content: space-between;
+}
+
+@media (min-width:700px) and (max-width: 1100px)
+{
+  .text{
+    font-size: 25px;
+    margin: 10px;
+  }
+  .buttons{
+    display: flex;
+    padding: 10px;
+    width: 95%;
+    justify-content: space-between;
+  }
+  .tweet
+  {
+    width: 9%;
+  }
+  .heading-1
+  {
+    font-size: 25px;
+  }
+  .author{
+    margin: 10px;
+  }
+}
+
+@media (min-width:400px) and (max-width: 699px)
+{
+  .text{
+    font-size: 25px;
+    margin: 10px;
+  }
+  .buttons{
+    display: flex;
+    padding: 10px;
+    width: 95%;
+    justify-content: space-between;
+  }
+  .tweet
+  {
+    width: 12%;
+  }
+  .heading-1
+  {
+    font-size: 25px;
+  }
+  .author{
+    margin: 10px;
+  }
+}
+
+@media (min-width:200px) and (max-width: 399px)
+{
+  .text{
+    font-size: 20px;
+    margin: 5px;
+    padding: 8px;
+  }
+  .buttons{
+    display: flex;
+    padding: 5px;
+    width: 95%;
+    justify-content: space-between;
+  }
+  .tweet
+  {
+    width: 15%;
+  }
+  .author{
+    margin: 10px;
+    padding: 5px;
+    align-self: center;
+  }
+  .heading-1
+  {
+    font-size: 25px;
+  }
 }
