@@ -17,7 +17,7 @@ export const AppContainer=styled.div`
   
 export const QuoteBox=styled.div`
     background-color: white;
-    width: 35%;
+    width: 40%;
     margin:auto;
     border-radius:10px;
     padding:20px 20px;
