@@ -8,10 +8,6 @@ export const AppContainer=styled.div`
     justify-content:center;
     align-items:center;
     transition:all 1200ms ease-out;
-    @media(min-width:1100px){
-
-
-    }
 `
     
   
@@ -40,7 +36,7 @@ export const NewQuoteBox=styled.button`
     padding: 10px 15px;
     cursor: pointer;
     color:white;
-    width:25    %;
+    width:25%;
     font-size:17px;
     border-radius:8px;
     text-align:center;
